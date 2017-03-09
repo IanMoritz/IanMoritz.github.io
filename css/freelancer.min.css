@@ -7,27 +7,31 @@
  @charset "UTF-8";
  @import url(font-awesome.min.css);
  @import url("https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i");
- @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:400,400i,700,700i');
+  @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:400,400i,700,700i');
+ @import url('https://fonts.googleapis.com/css?family=roboto:400,400i,700,700i');
 
- ::selection {
-     background-color: #FFDD33;
-     color: #222222;
- }
- ::-moz-selection {
-     background-color: #FFDD33;
-     color: #222222;
- }
+
+::selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
+::-moz-selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
-  background-color: #ffffff;
+ font-family: 'Roboto', sans-serif;
+ overflow-x: hidden;
+ background-color: #ffffff;
 }
 p {
-  font-size: 20px;
+ font-size: 14px;
+ font-family: 'Roboto', sans-serif;
 }
 p.small {
-  font-size: 16px;
+ font-size: 14px;
+ font-family: 'Open Sans', sans-serif;
 }
 a,
 a:hover,
@@ -36,7 +40,7 @@ a:active,
 a.active {
   color: #000000;
   outline: none;
-  font-size: 20px;
+  font-size: 14px;
 }
 h1,
 h2,
@@ -124,7 +128,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #000000;
-  font-family: 'Product Sans', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: 'Product Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -198,7 +202,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
@@ -338,7 +342,7 @@ footer .footer-below {
 .btn-outline {
   color: white;
   font-size: 20px;
-  border: solid 2px black;
+  border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -348,7 +352,7 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: #eee;
-  background: black;
+  background: white;
   border: solid 2px white;
 }
 .btn-primary {
@@ -489,7 +493,7 @@ fieldset[disabled] .btn-success.active {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
+  margin: 20px 0;
   font-size: 1.25em;
 }
 .portfolio-modal .close-modal {
