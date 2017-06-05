@@ -256,7 +256,7 @@ text-shadow: none;
 }
 /*Border/Frame*/
 .frame {
-  border: .8rem solid #fff;
+  border: .8rem solid #000000;
 }
 [class*="background"].frame {
 border-width: .2rem;
