@@ -348,6 +348,9 @@ nav[role=navigation] li.active a {
 nav li.twitter a:hover {
   background-color: #1da1f3;
 }
+nav li.medium a:hover {
+  background-color: #02b875;
+}
 nav li.facebook a:hover {
   background-color: #3b5998;
 }
