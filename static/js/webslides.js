@@ -701,10 +701,10 @@ var WebSlides = function () {
    * Options for WebSlides
    * @param {number|boolean} autoslide If a number is provided, it will allow
    * autosliding by said amount of milliseconds.
-   * @param {boolean} changeOnClick If true, it will allow
+   * @param {true} changeOnClick If true, it will allow
    * clicking on any place to change the slide.
    * @param {boolean} loop Whether to go to first slide from last one or not.
-   * @param {number} minWheelDelta Controls the amount of needed scroll to
+   * @param {500} minWheelDelta Controls the amount of needed scroll to
    * trigger navigation.
    * @param {number} scrollWait Controls the amount of time to wait till
    * navigation can occur again with scroll.
@@ -714,13 +714,13 @@ var WebSlides = function () {
   function WebSlides() {
     var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
         _ref$autoslide = _ref.autoslide,
-        autoslide = _ref$autoslide === undefined ? false : _ref$autoslide,
+        autoslide = _ref$autoslide === undefined ? true : _ref$autoslide,
         _ref$changeOnClick = _ref.changeOnClick,
         changeOnClick = _ref$changeOnClick === undefined ? false : _ref$changeOnClick,
         _ref$loop = _ref.loop,
         loop = _ref$loop === undefined ? true : _ref$loop,
         _ref$minWheelDelta = _ref.minWheelDelta,
-        minWheelDelta = _ref$minWheelDelta === undefined ? 40 : _ref$minWheelDelta,
+        minWheelDelta = _ref$minWheelDelta === undefined ? 400 : _ref$minWheelDelta,
         _ref$scrollWait = _ref.scrollWait,
         scrollWait = _ref$scrollWait === undefined ? 450 : _ref$scrollWait,
         _ref$slideOffset = _ref.slideOffset,

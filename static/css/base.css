@@ -1116,7 +1116,7 @@ line-height: 16rem;
   font-weight: 600;
   display: inline-block;
   width: 12.8rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 /* -- Magazine Two Columns -- */
@@ -3252,7 +3252,7 @@ button:disabled:hover {
 /* -- Posts = .wrap.longform -- */
 
 .longform {
-width: 72rem;
+width: 60rem;
 /* Why 72rem=720px?
 90-95 characters per line = better reading speed */
 }
