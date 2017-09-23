@@ -1503,7 +1503,7 @@ section,.slide
 
 @media (min-width: 1024px) {
   section, .slide {
-    padding-top: 12rem;
+    padding-top: 6rem;
     padding-bottom: 12rem;
   }
 }
