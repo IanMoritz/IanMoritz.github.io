@@ -1597,8 +1597,8 @@ padding: 2.4rem;
   z-index: 4;
 }
 #navigation  {
-  -webkit-animation: fadeIn 8s;
-  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 6s;
+  animation: fadeIn 6s;
   opacity:0;
 }
 #navigation:hover {
@@ -1650,8 +1650,8 @@ a#previous {
   #navigation {
     background: url('../images/swipe.svg') no-repeat center top;
     background-size: 4.8rem;
-    -webkit-animation: fadeIn 6s;
-    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 8s;
+    animation: fadeIn 8s;
   }
   #navigation a, #counter {display: none;
   }
