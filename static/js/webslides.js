@@ -720,7 +720,7 @@ var WebSlides = function () {
         _ref$loop = _ref.loop,
         loop = _ref$loop === undefined ? false : _ref$loop,
         _ref$minWheelDelta = _ref.minWheelDelta,
-        minWheelDelta = _ref$minWheelDelta === undefined ? 80 : _ref$minWheelDelta,
+        minWheelDelta = _ref$minWheelDelta === undefined ? 160 : _ref$minWheelDelta, //80
         _ref$scrollWait = _ref.scrollWait,
         scrollWait = _ref$scrollWait === undefined ? 450 : _ref$scrollWait,
         _ref$slideOffset = _ref.slideOffset,
